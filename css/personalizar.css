@@ -19,7 +19,6 @@ body {
 .redes ul li {
     display: inline-block;
     list-style: none;
-    float: left;
     height: 20%;
     
     margin-left: 20px;
