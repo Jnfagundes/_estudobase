@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: rgb(240, 250, 246);
+    background-color: rgb(185, 190, 188);
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -51,14 +51,26 @@ nav#menu a:hover {
 }
 
 div#faixa {
+    display: block;
     background-color: rgb(5, 58, 29);
     position: absolute;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 70px;
     
 }
 
 div#faixa h1 {
     color:#ffffff;
-
+    font-size: 60px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
+
+div#faixa h6 {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 1000px;
+    margin-top: -60px;
+}
+
