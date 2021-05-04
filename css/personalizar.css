@@ -1,31 +1,64 @@
+@import url(https://fonts.googleapis.com/css2?family=Goblin+One&display=swap);
+
+
 body {
-    background-color: aquamarine;
+    background-color: rgb(240, 250, 246);
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
 
-.topo {
-    background-color: white;
-    position: relative;
-    height: 100%;
+div#linha {
+    background-color: rgb(23, 70, 70);
+    border-bottom: 2px solid black;
 }
 
-.logo {
-    position: relative;
-
+/*Configuração do menu*/
+nav#menu {
+    display: block;
 }
 
-.redes ul li {
-    display: inline-block;
+/*Formatação do ul*/
+nav#menu ul {
     list-style: none;
-    height: 20%;
-    
-    margin-left: 20px;
-    border: 1px;
-    background: gray;
+    text-transform: uppercase;
+    position: absolute;
 }
-.redes {
-    width: 20%;
-    float: left;
+
+/*Formatação do li (Cada elemento da lista)*/
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(242, 248, 247);
+    font-family: 'Goblin One', sans-serif;
+    padding: 15px;
+    margin: 4px;
+    
+}
+
+nav#menu li:hover {
+    background-color: rgb(231, 223, 211);
+}
+
+
+nav#menu a {
+    color: #08130e;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color:rgb(10, 88, 14)
+    
+}
+
+div#faixa {
+    background-color: rgb(5, 58, 29);
+    position: absolute;
+    width: 100%;
+    margin-top: 80px;
+    
+}
+
+div#faixa h1 {
+    color:#ffffff;
+
 }
