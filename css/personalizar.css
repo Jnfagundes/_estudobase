@@ -5,13 +5,9 @@ body {
     background-color: rgb(185, 190, 188);
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+    margin: 15px;
 }
 
-div#linha {
-    background-color: rgb(23, 70, 70);
-    border-bottom: 2px solid black;
-}
 
 /*Configuração do menu*/
 nav#menu {
@@ -72,5 +68,20 @@ div#faixa h6 {
     font-size: 15px;
     margin-left: 1000px;
     margin-top: -60px;
+}
+
+#corpo {
+    display: block;
+    position: absolute;
+    top: 180px;
+    width: 800px;
+    background-color: rgb(169, 173, 173);
+    
+}
+
+#cabecatexto h1 {
+    font-size: 30px;
+    position: relative;
+    padding-left: 15px;
 }
 
