@@ -1,0 +1,80 @@
+/*Alterando o coantainer*/
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/*Alterando estilo de fontes no corpo*/
+body {
+    background: #FFF1D6;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/*Alterando o fundo de cada trecho*/
+.place {
+    width: 660px;
+    background-color: #FFF;
+    border-color: rgba(90, 87, 87, 0.8) rgba(75, 50, 50, 0.6) rgba(90, 89, 89, 0.6) rgba(255, 124, 124, 0.8);
+    border: 1px solid rgb(37, 36, 36);
+    margin-bottom: 30px;
+    padding: 20pzx;
+}
+
+.place h3 {
+    border-bottom: 1px dashed #6d8d0c;
+    margin: 0;
+
+}
+
+.place a {
+    color: #2C88A7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.place p {
+    margin: 30px ;
+
+}
+
+.place h1 {
+    margin-left: 20px;
+}
+
+.place h2 {
+    margin-left: 20px;
+}
+
+.place h3 {
+    margin-left: 10px;
+}
+
+.place img {
+    
+    border: 1px solid #7E9F19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+
+.sidenote {
+    background-color: #FFFBE4;
+    border: 1px solid #C9BC8F;
+    float: right;
+    margin-top: -2747px;
+    padding: 10px;
+    width: 300px;
+}
+.sidenote h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+.sidenote ol {
+    font-size: 12px;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+}
